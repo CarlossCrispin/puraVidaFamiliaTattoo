@@ -7,15 +7,15 @@ function App() {
 
   return (
     <div className="App">
-      <div>
+      <div className="flex justify-center">
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
+          <img src="/vite.svg" className="logo w-full" alt="Vite logo" />
         </a>
         <a href="https://reactjs.org" target="_blank" rel="noreferrer">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1 className="bg-purple-200 text-purple-800 text-5xl w-full p-4">Vite + React + Eslint + Prettier + Tailwind</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
