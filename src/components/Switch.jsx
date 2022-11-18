@@ -20,7 +20,7 @@ export const Switch = ({ theme, setTheme }) => {
         type="button"
         aria-label="Color Mode"
         onClick={handleThemeSwitch}
-        className="flex justify-center p-3 border-none text-red-600 bg-red-200 hover:bg-red-200 rounded-md hover:text-red-400 focus:outline-none focus:bg-red-100 dark:text-red-100 dark:bg-red-500 dark:hover:bg-red-700 dark:hover:text-red-400 transition duration-150 ease-in-out"
+        className="flex justify-center p-2 mr-4 border-none text-red-600 bg-red-200 hover:bg-red-200 rounded-md hover:text-red-400 focus:outline-none focus:bg-red-100 dark:text-red-100 dark:bg-red-500 dark:hover:bg-red-700 dark:hover:text-red-400 transition duration-150 ease-in-out"
       >
         <span>{Icon}</span>
       </button>
