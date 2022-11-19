@@ -3,6 +3,11 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import PropTypes from 'prop-types'
 import classNames from "classnames";
+import icon1 from '../../public/craneo.png'
+import icon2 from '../../public/plantilla.png'
+import icon3 from '../../public/swallow.png'
+import icon4 from '../../public/tatuaje.png'
+
 
 const Section2 =({scroll}) => {
 
@@ -104,22 +109,22 @@ const Section2 =({scroll}) => {
               ],
               "image": [
                 {
-                  "src": "../../public/craneo.png",
+                  "src": "/craneo.png",
                   "height": 20,
                   "width": 23
                 },
                 {
-                  "src": "../../public/agarre.png",
+                  "src": "/agarre.png",
                   "height": 20,
                   "width": 20
                 },
                 {
-                  "src": "../../public/swallow.png",
+                  "src": "/swallow.png",
                   "height": 20,
                   "width": 20
                 },
                 {
-                  "src": "../../public/plantilla.png",
+                  "src": "/plantilla.png",
                   "height": 20,
                   "width": 20
                 }
