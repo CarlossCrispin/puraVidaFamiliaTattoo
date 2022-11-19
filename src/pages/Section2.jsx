@@ -104,22 +104,22 @@ const Section2 =({scroll}) => {
               ],
               "image": [
                 {
-                  "src": "/assets/craneo.png",
+                  "src": "../../public/craneo.png",
                   "height": 20,
                   "width": 23
                 },
                 {
-                  "src": "/assets/agarre.png",
+                  "src": "../../public/agarre.png",
                   "height": 20,
                   "width": 20
                 },
                 {
-                  "src": "/assets/swallow.png",
+                  "src": "../../public/swallow.png",
                   "height": 20,
                   "width": 20
                 },
                 {
-                  "src": "/assets/plantilla.png",
+                  "src": "../../public/plantilla.png",
                   "height": 20,
                   "width": 20
                 }
@@ -159,22 +159,22 @@ const Section2 =({scroll}) => {
               ],
               "image": [
                 {
-                  "src": "/assets/craneo.png",
+                  "src": "../../public/craneo.png",
                   "height": 20,
                   "width": 23
                 },
                 {
-                  "src": "/assets/agarre.png",
+                  "src": "../../public/agarre.png",
                   "height": 20,
                   "width": 20
                 },
                 {
-                  "src": "/assets/swallow.png",
+                  "src": "../../public/swallow.png",
                   "height": 20,
                   "width": 20
                 },
                 {
-                  "src": "/assets/plantilla.png",
+                  "src": "../../public/plantilla.png",
                   "height": 20,
                   "width": 20
                 }
