@@ -46,7 +46,7 @@ video {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-   object-fit: cover;
+   object-fit: contain;
 }
 .artist3{
   background-image: url('https://images.pexels.com/photos/7005675/pexels-photo-7005675.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
@@ -54,7 +54,7 @@ video {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-   object-fit: cover;
+   object-fit: fill;
 }
 .artist4{
   background-image: url('https://images.pexels.com/photos/7005732/pexels-photo-7005732.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
@@ -62,5 +62,5 @@ video {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-   object-fit: cover;
+   object-fit:unset;
 }
