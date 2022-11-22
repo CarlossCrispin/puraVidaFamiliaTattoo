@@ -87,15 +87,15 @@ export const Nav = ({ theme, setTheme, scroll }) => {
               <img src={icon1} alt="logo" className="w-8" />
               <a href="#section2" className={linkMd}>
 
-                section2
+                Nosotros
               </a>
               <img src={icon2} alt="logo" className="w-8" />
               <a href="#section3" className={linkMd}>
-                section3
+                Trabajos
               </a>
               <img src={icon3} alt="logo" className="w-8" />
               <a href="#section4" className={linkMd}>
-                section4
+                Contacto
               </a>
             </div>
             {/* <div>

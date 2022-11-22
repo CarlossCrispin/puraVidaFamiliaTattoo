@@ -9,6 +9,8 @@ const Section1 = ({scroll}) => {
       ? 'text-center text-red-500 dark:text-slate-50 font-bold content text-4xl md:text-8xl tracking-wide transition duration-700 ease-in-out z-10'
       : 'text-center text-red-500 dark:text-slate-50 font-bold content text-4xl md:text-8xl tracking-widetransition duration-700 ease-in-out opacity-0'
   )
+
+
   return (
     <div id="section1">
       <div className="overlay h-screen z-20 absolute"></div>
@@ -22,7 +24,7 @@ const Section1 = ({scroll}) => {
       ></video>
       <div className="content">
         <h1 className={pfvMov}>
-        Pura vida familia
+          {scroll === 0 ? 'Pura Vida Familia' : scroll > 200 ? 'PVF' : scroll > 100 ? 'Pu Vi Fa' : 'Pur Vid Fami'}
       </h1>
       </div>
     </div >
